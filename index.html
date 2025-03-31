@@ -1,38 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AutoProof AI</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: #f8f9fa;
+      color: #222;
+      padding: 2rem;
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+    }
+
+    .tier {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.2rem;
+      margin-top: 1rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .tier h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.2rem;
+    }
+
+    .tier p {
+      margin: 0 0 1rem 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1rem;
+      background: #0070f3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .btn:hover {
+      background: #005dc1;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to AutoProof AI</h1>
+  <h1>AutoProof AI</h1>
   <p>Fully autonomous copyright protection powered by AI.</p>
 
   <h2>Choose Your Plan:</h2>
 
-  <ul>
-    <li>
-      🟦 <strong>Free Tier</strong><br>
-      Basic scans, community support.<br>
-      <a href="https://vaultprompt.lemonsqueezy.com/buy/0c356578-7307-40e3-ad3c-add8d833bdf4">
-        <button>Get Started Free</button>
-      </a>
-    </li><br>
+  <div class="tier">
+    <h3>Free Tier</h3>
+    <p>Basic scans and community support.</p>
+    <a href="https://vaultprompt.lemonsqueezy.com/buy/0c356578-7307-40e3-ad3c-add8d833bdf4" class="btn">Get Started Free</a>
+  </div>
 
-    <li>
-      🟫 <strong>Standard Tier – $9.99/month</strong><br>
-      Unlimited scans, encrypted WhisperVault storage.<br>
-      <a href="https://vaultprompt.lemonsqueezy.com/buy/ddf8c522-e56c-4f7f-a2b5-67e4083ccb40">
-        <button>Subscribe to Standard</button>
-      </a>
-    </li><br>
+  <div class="tier">
+    <h3>Standard Tier – $9.99/month</h3>
+    <p>Unlimited scans, encrypted WhisperVault storage.</p>
+    <a href="https://vaultprompt.lemonsqueezy.com/buy/ddf8c522-e56c-4f7f-a2b5-67e4083ccb40" class="btn">Subscribe to Standard</a>
+  </div>
 
-    <li>
-      🟥 <strong>Pro Tier – $49.99/month</strong><br>
-      Full IP protection, WhisperVault+, private audit reports.<br>
-      <a href="https://vaultprompt.lemonsqueezy.com/buy/efe14527-3460-4ae4-a81a-33651345bbd9">
-        <button>Subscribe to Pro</button>
-      </a>
-    </li>
-  </ul>
+  <div class="tier">
+    <h3>Pro Tier – $49.99/month</h3>
+    <p>Full IP protection, WhisperVault+, private audit reports.</p>
+    <a href="https://vaultprompt.lemonsqueezy.com/buy/efe14527-3460-4ae4-a81a-33651345bbd9" class="btn">Subscribe to Pro</a>
+  </div>
 </body>
 </html>
+
